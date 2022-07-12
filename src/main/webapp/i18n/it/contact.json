@@ -1,0 +1,28 @@
+{
+  "agendaApp": {
+    "contact": {
+      "home": {
+        "title": "Contacts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Contact",
+        "createOrEditLabel": "Genera o modifica un Contact",
+        "notFound": "No Contacts found"
+      },
+      "created": "&Egrave; stato generato un nuovo Contact con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Contact identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Contact con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact"
+      },
+      "id": "ID",
+      "title": "Title",
+      "avatar": "Avatar",
+      "phoneContact": "Phone Contact",
+      "emailContact": "Email Contact",
+      "appointment": "Appointment"
+    }
+  }
+}

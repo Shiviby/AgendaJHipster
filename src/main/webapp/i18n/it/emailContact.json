@@ -1,0 +1,26 @@
+{
+  "agendaApp": {
+    "emailContact": {
+      "home": {
+        "title": "EmailContacts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Email Contact",
+        "createOrEditLabel": "Genera o modifica un Email Contact",
+        "notFound": "No Email Contacts found"
+      },
+      "created": "&Egrave; stato generato un nuovo Email Contact con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Email Contact identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Email Contact con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Email Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Email Contact"
+      },
+      "id": "ID",
+      "type": "Type",
+      "email": "Email",
+      "contact": "Contact"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "changelogDate": "20220711114435",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "avatar",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Contact",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "phoneContact",
+      "otherEntityRelationshipName": "contact",
+      "relationshipName": "phoneContact",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "emailContact",
+      "otherEntityRelationshipName": "contact",
+      "relationshipName": "emailContact",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "appointment",
+      "otherEntityRelationshipName": "contact",
+      "ownerSide": false,
+      "relationshipName": "appointment",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

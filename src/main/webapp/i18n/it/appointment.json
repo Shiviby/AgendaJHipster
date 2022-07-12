@@ -1,0 +1,26 @@
+{
+  "agendaApp": {
+    "appointment": {
+      "home": {
+        "title": "Appointments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Appointment",
+        "createOrEditLabel": "Genera o modifica un Appointment",
+        "notFound": "No Appointments found"
+      },
+      "created": "&Egrave; stato generato un nuovo Appointment con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Appointment identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Appointment con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Appointment {{ id }}?"
+      },
+      "detail": {
+        "title": "Appointment"
+      },
+      "id": "ID",
+      "title": "Title",
+      "startDate": "Start Date",
+      "contact": "Contact"
+    }
+  }
+}

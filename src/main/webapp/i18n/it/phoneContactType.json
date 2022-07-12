@@ -1,0 +1,11 @@
+{
+  "agendaApp": {
+    "PhoneContactType": {
+      "null": "",
+      "HOME": "HOME",
+      "PERSONAL": "PERSONAL",
+      "WORK": "WORK",
+      "MOBILE": "MOBILE"
+    }
+  }
+}

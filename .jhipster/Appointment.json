@@ -1,0 +1,31 @@
+{
+  "changelogDate": "20220711123755",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Appointment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "contact",
+      "otherEntityRelationshipName": "appointment",
+      "ownerSide": true,
+      "relationshipName": "contact",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

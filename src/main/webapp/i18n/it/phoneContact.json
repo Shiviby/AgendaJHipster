@@ -1,0 +1,26 @@
+{
+  "agendaApp": {
+    "phoneContact": {
+      "home": {
+        "title": "PhoneContacts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Phone Contact",
+        "createOrEditLabel": "Genera o modifica un Phone Contact",
+        "notFound": "No Phone Contacts found"
+      },
+      "created": "&Egrave; stato generato un nuovo Phone Contact con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Phone Contact identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Phone Contact con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Phone Contact {{ id }}?"
+      },
+      "detail": {
+        "title": "Phone Contact"
+      },
+      "id": "ID",
+      "type": "Type",
+      "phone": "Phone",
+      "contact": "Contact"
+    }
+  }
+}

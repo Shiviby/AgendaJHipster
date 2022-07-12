@@ -1,0 +1,9 @@
+{
+  "agendaApp": {
+    "EmailContactType": {
+      "null": "",
+      "HOME": "HOME",
+      "WORK": "WORK"
+    }
+  }
+}
