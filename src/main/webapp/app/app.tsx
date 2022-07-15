@@ -22,11 +22,17 @@ const baseHref = document.querySelector('base').getAttribute('href').replace(/\/
 
 export const App = () => {
   const dispatch = useAppDispatch();
+  const localeLastChange = useAppSelector(state => state.locale.lastChange);
 
   useEffect(() => {
     dispatch(getSession());
     dispatch(getProfile());
   }, []);
+
+  useEffect(() => {
+    // Redraw all the app
+  }, [localeLastChange]);
+
 
   const currentLocale = useAppSelector(state => state.locale.currentLocale);
   const isAuthenticated = useAppSelector(state => state.authentication.isAuthenticated);

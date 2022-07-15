@@ -30,7 +30,9 @@ import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons/faUserPlus';
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import { faUsersCog } from '@fortawesome/free-solid-svg-icons/faUsersCog';
-import { faWrench } from '@fortawesome/free-solid-svg-icons/faWrench';
+import { faWrench } from '@fortawesome/free-solid-svg-icons/faWrench'
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -68,6 +70,8 @@ export const loadIcons = () => {
     faUserPlus,
     faUsers,
     faUsersCog,
-    faWrench
+    faWrench,
+    faPhone,
+    faEnvelope
   );
 };

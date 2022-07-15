@@ -13,6 +13,7 @@ import EntitiesRoutes from 'app/entities/routes';
 import PrivateRoute from 'app/shared/auth/private-route';
 import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 import PageNotFound from 'app/shared/error/page-not-found';
+import Contacts from 'app/modules/contacts';
 import { AUTHORITIES } from 'app/config/constants';
 
 const loading = <div>loading ...</div>;
@@ -39,6 +40,7 @@ const Routes = () => {
         <ErrorBoundaryRoute path="/account/reset/finish/:key?" component={PasswordResetFinish} />
         <PrivateRoute path="/admin" component={Admin} hasAnyAuthorities={[AUTHORITIES.ADMIN]} />
         <PrivateRoute path="/account" component={Account} hasAnyAuthorities={[AUTHORITIES.ADMIN, AUTHORITIES.USER]} />
+        <PrivateRoute path="/contacts" component={Contacts} hasAnyAuthorities={[AUTHORITIES.USER]} />
         <ErrorBoundaryRoute path="/" exact component={Home} />
         <PrivateRoute path="/" component={EntitiesRoutes} hasAnyAuthorities={[AUTHORITIES.USER]} />
         <ErrorBoundaryRoute component={PageNotFound} />

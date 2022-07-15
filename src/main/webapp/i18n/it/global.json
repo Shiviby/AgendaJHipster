@@ -34,7 +34,11 @@
         "database": "Database",
         "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
       },
-      "language": "Lingua"
+      "language": "Lingua",
+      "custom": {
+        "main": "Rubrica",
+        "contacts": "Contatti"
+      }
     },
     "form": {
       "username.label": "Utente",

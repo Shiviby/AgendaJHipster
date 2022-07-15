@@ -1,0 +1,99 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+.contacts {
+    .contact-list {
+        max-width: 500px;
+        margin: auto;
+        .search-field {
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-color: #e4e8f8;
+            border-radius: 25px;
+            padding: 0 20px;
+            &:focus {
+                outline: none;
+            }
+        }
+        .add-button {
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+            border-radius: 10px;
+            background-color: #e4e8f8;
+            color: black;
+            box-shadow: 2px 2px #888888;
+            z-index: 3000;
+        }
+        .list-container {
+            max-width: 400px;
+            margin: auto;
+            position: relative;
+            width: 100%;
+            .entity-cell {
+                display: flex;
+                height: 50px;
+                align-items: center;
+                margin: 10px 0;
+                text-decoration: none;
+                .avatar {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #e4e8f8;
+                    border-radius: 50px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .description {
+                    font-size: 25px;
+                    line-height: 25px;
+                    font-weight: 400 !important;
+                    color: black;
+                }
+            }
+        }
+    }
+    .contact-detail {
+        max-width: 500px;
+        margin: auto;
+        .back-button {
+            color: black;
+            background: transparent;
+            border: none;
+        }
+        .card {
+            padding: 0 1rem;
+            margin: 10px 0;
+        }
+        .contact-personal-detail {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            margin: 10px 0;
+            &.contact-item {
+                height: 30px;
+            }
+            .avatar {
+                width: 50px;
+                height: 50px;
+                background-color: #e4e8f8;
+                border-radius: 50px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .description {
+                font-size: 25px;
+                line-height: 25px;
+                font-weight: 400 !important;
+                color: black;
+            }
+        }
+    }
+}
